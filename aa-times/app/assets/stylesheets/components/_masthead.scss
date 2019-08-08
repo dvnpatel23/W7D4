@@ -29,6 +29,10 @@
 	display: flex;
 }
 
+.language-nav li:first-child {
+	font-weight: bold;
+}
+
 .logo {
 	max-width: 400px;
 	margin-top: 10px;
@@ -53,6 +57,10 @@
 	color: #000;
 	font-weight: normal;
 	border: none;
+}
+
+.masthead-links > li:last-of-type {
+	border-right: none;
 }
 
 .masthead-links button:hover {
