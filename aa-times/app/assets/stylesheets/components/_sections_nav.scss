@@ -1,0 +1,28 @@
+.sections {
+  display: flex;
+  font-family: $sans-serif;
+  justify-content: center;
+  border-bottom: 1px solid $light-gray;
+}
+
+.sections > li {
+  padding: 10px
+}
+
+.sections > li > a:hover {
+  background-color: $light-gray;
+  text-decoration: none;
+}
+
+.sections > li:last-of-type > a {
+  font-size: 10px
+}
+
+.sections > li:last-of-type > a:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+.sections > li:last-of-type {
+  text-transform: uppercase;
+}
