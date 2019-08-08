@@ -23,12 +23,13 @@ align-items: center;
 }
 
 .right-nav > ul > li:last-of-type {
-  
+   margin-left: 2px;
+   padding: 5px;
 }
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-  background-color: $lightest-gray;
+background-color: $lightest-gray;
 
 }
 
@@ -41,7 +42,6 @@ font-weight: bold;
 
 
 .right-nav i {
-  padding: 5px;
   font-size: 14px;
-  margin-left: 2px;
 }
+
