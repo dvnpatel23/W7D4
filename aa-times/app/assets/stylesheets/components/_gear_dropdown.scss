@@ -8,7 +8,7 @@
   top: 30px;
   right: 0px;
   background: white;
-  padding: 8px;
+  padding: 10px;
   border: 1px solid $light-gray;
   width: 240px;
   box-sizing: border-box;
@@ -16,15 +16,21 @@
   font-family: $sans-serif;
   color: $gray;
   font-size: 14px;
+  box-shadow: -1px 4px 6px 1px rgba(0, 0, 0, 0.09);
 }
 
 .editions a:hover {
   text-decoration: none;
 }
 
-#gear-dropdown li {
-  padding: 3px;
-  margin: 8px 0px;
+
+#gear-dropdown > li li {
+  padding: 5px;
+  margin: 5px 0px;
+}
+
+#gear-dropdown > li {
+  padding-top: 5px;
 }
 
 .editions li:hover {
@@ -41,7 +47,7 @@
   font-size: 10px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-left: 3px;
+  margin-left: 3px; 
 }
 
 .help a {
